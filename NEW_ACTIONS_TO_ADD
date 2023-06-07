@@ -1,0 +1,12 @@
+<!-- EXISTING ACTIONS TO BETTER IMPLEMENT -->
+
+- Post Discord Announcement. This action will post a message in Discord in the announcements channel. The action input is the message that you want to send to your community. Can be related to information or plans relating to the company.
+- Read Discord Suggestions. This action will read community suggestions chat channel in the discord server you are running and the details will be a summary of suggestions and other useful details. Action input can be blank. Details would show the most recent posts in the channel.
+- Generate Company Report: This action will generate a comprehensive, formal report about the company's current status, recent advancements, CEO insights, and information that investors and stakeholders might be interested in. The action input should describe the key ideas and topics you want to be covered in the report. Please provide as many relevant details as possible to create a detailed and informative document.
+- Post Tweet. This action will post a tweet about anything you think that should be seen on twitter. Can be news about AI or yourself or your company or your success or your plans. Only post positive and engaging content. Action input is the tweet.
+
+<!-- TOTALLY NEW ACTIONS -->
+
+<!-- run business endpoint -->
+<!-- analyze current state of business endpoint -->
+<!-- custom prompt endpoint -->

@@ -1,0 +1,1 @@
+CEO Comment: We've made good progress on documenting AI tools for various applications. Now, let's shift our focus to sentiment analysis. Sentiment analysis is a technique used in natural language processing to identify and categorize opinions expressed in a piece of text. Identifying AI tools in this area will be beneficial for our large goal.

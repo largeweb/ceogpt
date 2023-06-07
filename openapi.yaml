@@ -1,0 +1,51 @@
+openapi: 3.0.1
+info:
+  title: CEOGPT V3
+  description: A plugin that makes important business decisions and updates
+  version: "v3"
+servers:
+  - url: http://localhost:3333
+paths:
+  /update-action-and-metrics:
+    post:
+      operationId: update
+      summary: Update the goals, status, history and next
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                largegoal:
+                  type: string
+                  description: An updated goal for CEOGPT company considering the details of the most recent action as well as the last large goal. This may not need to change. Required do not leave blank.
+                companystatus:
+                  type: string
+                  description: An updated company status for CEOGPT company considering the details of the most recent action as well as the last company status. Consider how close CEOGPT is to the large goal. Required do not leave blank.
+                recentcontext:
+                  type: string
+                  description: An updated log of recent actions based on the last history and the details of the most recent action. Summarize earlier actions and make this recent context focus on most recent actions. Try to add some of the previous actions as well, make it exhaustive but focus more on the recent actions. Required do not leave blank.
+                nextaction:
+                  type: string
+                  description: An updated action based on the available actions. This has to be one of the available actions. Required do not leave blank.
+                actioninput:
+                  type: string
+                  description: An updated input string or phrase that is given to the chosen action script that runs. This needs to be in an appropriate format for the action. Required do not leave blank for some actions.
+                narrowgoal:
+                  type: string
+                  description: An updated narrow goal to help CEOGPT complete the CEOGPT task based on the details of the last action and the action that CEOGPT wants to take. Be creative and come up with any appropriate ideas. Required do not leave blank.
+                thinking:
+                  type: string
+                  description: An updated comment by an experienced CEO who is guiding CEOGPT based on the details of the last action and the action CEOGPT wants to take as well as considering the best practices for the best success of the CEOGPT company. Required do not leave blank.
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  result:
+                    type: string
+                    description: The result of the operation.

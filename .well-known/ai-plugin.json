@@ -1,0 +1,18 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "CEOGPT V3",
+  "name_for_model": "ceogpt",
+  "description_for_human": "Plugin for making profitable business actions",
+  "description_for_model": "Plugin for making profitable business decisions by updating key metrics and the next step to take.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "http://localhost:3333/openapi.yaml",
+    "is_user_authenticated": false
+  },
+  "logo_url": "http://localhost:3333/logo.png",
+  "contact_email": "support@example.com",
+  "legal_info_url": "http://www.example.com/legal"
+}

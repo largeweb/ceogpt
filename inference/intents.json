@@ -1,0 +1,91 @@
+{
+  "intents": [
+    {
+      "tag": "textceo",
+      "patterns": [
+        "Text CEO a Message",
+        "Text CEO.",
+        "The next action is to Text the CEO and ask for a comment",
+        "Next action: text ceo"
+      ],
+      "responses": ["/home/matt/projects/ceogpt3/actions/textceo.sh"]
+    },
+    {
+      "tag": "research",
+      "patterns": [
+        "Research a Topic",
+        "Research about a given topic.",
+        "The next action is to research about a search term.",
+        "Next action: research.",
+        "Research"
+      ],
+      "responses": ["/home/matt/projects/ceogpt3/actions/researchx.sh"]
+    },
+    {
+      "tag": "viewnotes",
+      "patterns": [
+        "View Notes",
+        "View notes.",
+        "The next action is to view notes.",
+        "Next action: view notes."
+      ],
+      "responses": ["/home/matt/projects/ceogpt3/actions/viewnotes.sh"]
+    },
+    {
+      "tag": "appendnotes",
+      "patterns": [
+        "Append or Create Note File",
+        "Append or create note file.",
+        "The next action is to append or create a note file.",
+        "Next action: append or create note file."
+      ],
+      "responses": ["/home/matt/projects/ceogpt3/actions/appendnotes.sh"]
+    },
+    {
+      "tag": "postdiscordannouncement",
+      "patterns": [
+        "Post Discord Announcement",
+        "Post discord announcement.",
+        "The next action is to post a discord announcement.",
+        "Next action: post discord announcement."
+      ],
+      "responses": [
+        "/home/matt/projects/ceogpt3/actions/postdiscordannouncement.sh"
+      ]
+    },
+    {
+      "tag": "readdiscordsuggestions",
+      "patterns": [
+        "Read Discord Suggestions",
+        "Read discord suggestions.",
+        "The next action is to read discord suggestions.",
+        "Next action: read discord suggestions."
+      ],
+      "responses": [
+        "/home/matt/projects/ceogpt3/actions/readdiscordsuggestions.sh"
+      ]
+    },
+    {
+      "tag": "posttweet",
+      "patterns": [
+        "Post Tweet",
+        "Post tweet.",
+        "The next action is to post a tweet.",
+        "Next action: post tweet."
+      ],
+      "responses": ["/home/matt/projects/ceogpt3/actions/posttweet.sh"]
+    },
+    {
+      "tag": "generatereport",
+      "patterns": [
+        "Generate Report",
+        "Generate report.",
+        "The next action is to generate a report.",
+        "Next action: generate report."
+      ],
+      "responses": [
+        "python3 /home/matt/projects/ceogpt3/actions/generatereport.py"
+      ]
+    }
+  ]
+}

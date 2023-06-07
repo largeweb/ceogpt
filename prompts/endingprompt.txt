@@ -1,0 +1,2 @@
+Question: What action will you take based on all of this information? You must choose only from the Available Actions List. If you don't see any options, please Text CEO to extend your functionality. Text CEO is only used for adding new available actions. You can ask for features at a high level, like do emails, make a dropshipping account for a website, etc. And you can ask for multiple. Use the CEOGPT Plugin once to update. Only use the plugin once, later we can call CEOGPT again, but for now only one call.
+
